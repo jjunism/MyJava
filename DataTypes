@@ -1,0 +1,13 @@
+class DataTypes
+{
+    public static void main(String[] args)
+    {
+        
+        int age = 18;
+        float month = 0.6f;
+        String name = "jjunism";
+        boolean status = false; 
+        char resp = 'F';
+        System.out.println(age + month + "\n" +name + "\n" + status + resp);
+    }
+}
