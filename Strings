@@ -1,0 +1,13 @@
+class stringPrac
+{
+    public static void main(String[] args)
+    {
+        String myloves = "Tomorrow X Together";
+        String start = "I love ";
+        System.out.println(start.concat(myloves)); //string concatenation without + 
+        System.out.println(myloves.toUpperCase());
+        System.out.println(myloves.toLowerCase());
+        System.out.println("Length of string = " + myloves.length());
+        System.out.println("The \'x\' in the name at position " + myloves.indexOf("X") + " is read as 'by', not \'eks\'"); //escape character to avoid error
+    }
+}
